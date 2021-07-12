@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Production.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>myWallet.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5BC3B418269BEC37009C0B16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BC3B42E269BEC39009C0B16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BC3B439269BEC39009C0B16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BC3B45B269BF48E009C0B16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
