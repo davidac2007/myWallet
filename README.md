@@ -1,2 +1,2 @@
-# myWallet
-A personal finance app
+# My Wallet  💰
+A personal finance app 🤑
