@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BC3B45B269BF48E009C0B16"
+               BlueprintIdentifier = "5BA5B1FA269E1AAC00FD0339"
                BuildableName = "Production.app"
                BlueprintName = "Production"
                ReferencedContainer = "container:myWallet.xcodeproj">
@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5BC3B45B269BF48E009C0B16"
+            BlueprintIdentifier = "5BA5B1FA269E1AAC00FD0339"
             BuildableName = "Production.app"
             BlueprintName = "Production"
             ReferencedContainer = "container:myWallet.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5BC3B45B269BF48E009C0B16"
+            BlueprintIdentifier = "5BA5B1FA269E1AAC00FD0339"
             BuildableName = "Production.app"
             BlueprintName = "Production"
             ReferencedContainer = "container:myWallet.xcodeproj">
