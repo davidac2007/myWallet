@@ -23,6 +23,11 @@
 		5BC3B429269BEC39009C0B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC3B427269BEC39009C0B16 /* LaunchScreen.storyboard */; };
 		5BC3B434269BEC39009C0B16 /* myWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B433269BEC39009C0B16 /* myWalletTests.swift */; };
 		5BC3B43F269BEC39009C0B16 /* myWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B43E269BEC39009C0B16 /* myWalletUITests.swift */; };
+		5BC607E0269F8BB8001CA6DC /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */; };
+		5BC607E2269F8C17001CA6DC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E1269F8C17001CA6DC /* Profile.storyboard */; };
+		5BC607E4269F8C52001CA6DC /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E3269F8C52001CA6DC /* Add.storyboard */; };
+		5BC607E9269F8CF0001CA6DC /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */; };
+		5BC607EB269F8D15001CA6DC /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607EA269F8D15001CA6DC /* Budget.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		5BC3B43E269BEC39009C0B16 /* myWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWalletUITests.swift; sourceTree = "<group>"; };
 		5BC3B440269BEC39009C0B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC3B46B269BF9B8009C0B16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		5BC607E1269F8C17001CA6DC /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		5BC607E3269F8C52001CA6DC /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		5BC607EA269F8D15001CA6DC /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +157,8 @@
 		5BA5B210269E20C000FD0339 /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */,
+				5BC607E3269F8C52001CA6DC /* Add.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -154,6 +166,9 @@
 		5BA5B211269E20CA00FD0339 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				5BC607E1269F8C17001CA6DC /* Profile.storyboard */,
+				5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */,
+				5BC607EA269F8D15001CA6DC /* Budget.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -379,10 +394,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC607E2269F8C17001CA6DC /* Profile.storyboard in Resources */,
 				5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */,
+				5BC607EB269F8D15001CA6DC /* Budget.storyboard in Resources */,
+				5BC607E4269F8C52001CA6DC /* Add.storyboard in Resources */,
 				5BC3B429269BEC39009C0B16 /* LaunchScreen.storyboard in Resources */,
 				5BC3B426269BEC39009C0B16 /* Assets.xcassets in Resources */,
 				5BC3B424269BEC37009C0B16 /* Main.storyboard in Resources */,
+				5BC607E0269F8BB8001CA6DC /* Transactions.storyboard in Resources */,
+				5BC607E9269F8CF0001CA6DC /* Statistics.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
