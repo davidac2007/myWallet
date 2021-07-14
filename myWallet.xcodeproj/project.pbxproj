@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B01DEE7269E9EFD0095CE0C /* View.xib */; };
 		5BA5B1FC269E1AAC00FD0339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B420269BEC37009C0B16 /* ViewController.swift */; };
 		5BA5B1FD269E1AAC00FD0339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B41C269BEC37009C0B16 /* AppDelegate.swift */; };
 		5BA5B1FE269E1AAC00FD0339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B41E269BEC37009C0B16 /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B01DEE7269E9EFD0095CE0C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5BA5B207269E1AAC00FD0339 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA5B208269E1B4700FD0339 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Production.plist; sourceTree = "<group>"; };
 		5BC3B419269BEC37009C0B16 /* myWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +163,7 @@
 			children = (
 				5BC3B422269BEC37009C0B16 /* Main.storyboard */,
 				5BC3B420269BEC37009C0B16 /* ViewController.swift */,
+				5B01DEE7269E9EFD0095CE0C /* View.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */,
 				5BC3B429269BEC39009C0B16 /* LaunchScreen.storyboard in Resources */,
 				5BC3B426269BEC39009C0B16 /* Assets.xcassets in Resources */,
 				5BC3B424269BEC37009C0B16 /* Main.storyboard in Resources */,
