@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B01DEE7269E9EFD0095CE0C /* View.xib */; };
+		5B29455B26A1E502000CAAC1 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B29455A26A1E502000CAAC1 /* SignIn.storyboard */; };
+		5B29455C26A1E502000CAAC1 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B29455A26A1E502000CAAC1 /* SignIn.storyboard */; };
+		5B29455D26A1E51A000CAAC1 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E3269F8C52001CA6DC /* Add.storyboard */; };
+		5B29455E26A1E530000CAAC1 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607EA269F8D15001CA6DC /* Budget.storyboard */; };
+		5B29455F26A1E537000CAAC1 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */; };
+		5B29456026A1E53E000CAAC1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E1269F8C17001CA6DC /* Profile.storyboard */; };
+		5B29456126A1E543000CAAC1 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */; };
 		5BA5B1FC269E1AAC00FD0339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B420269BEC37009C0B16 /* ViewController.swift */; };
 		5BA5B1FD269E1AAC00FD0339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B41C269BEC37009C0B16 /* AppDelegate.swift */; };
 		5BA5B1FE269E1AAC00FD0339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B41E269BEC37009C0B16 /* SceneDelegate.swift */; };
@@ -49,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		5B01DEE7269E9EFD0095CE0C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		5B29455A26A1E502000CAAC1 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		5BA5B207269E1AAC00FD0339 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA5B208269E1B4700FD0339 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Production.plist; sourceTree = "<group>"; };
 		5BC3B419269BEC37009C0B16 /* myWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +113,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B29455726A1E27A000CAAC1 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		5B29455826A1E2A0000CAAC1 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				5BC607E3269F8C52001CA6DC /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		5B29455926A1E2BF000CAAC1 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				5BC607EA269F8D15001CA6DC /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
 		5BA5B20A269E1FFE00FD0339 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				5BA5B212269E20DD00FD0339 /* Main */,
+				5B29455926A1E2BF000CAAC1 /* Budget */,
+				5B29455826A1E2A0000CAAC1 /* Add */,
+				5B29455726A1E27A000CAAC1 /* Statistics */,
 				5BA5B211269E20CA00FD0339 /* Profile */,
 				5BA5B210269E20C000FD0339 /* Transactions */,
 			);
@@ -150,6 +185,7 @@
 		5BA5B20F269E20AC00FD0339 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				5B29455A26A1E502000CAAC1 /* SignIn.storyboard */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -158,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */,
-				5BC607E3269F8C52001CA6DC /* Add.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -167,8 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				5BC607E1269F8C17001CA6DC /* Profile.storyboard */,
-				5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */,
-				5BC607EA269F8D15001CA6DC /* Budget.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -384,9 +417,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA5B201269E1AAC00FD0339 /* LaunchScreen.storyboard in Resources */,
+				5B29455C26A1E502000CAAC1 /* SignIn.storyboard in Resources */,
 				5BA5B202269E1AAC00FD0339 /* Assets.xcassets in Resources */,
 				5BA5B209269E1B4700FD0339 /* Production.plist in Resources */,
+				5B29455D26A1E51A000CAAC1 /* Add.storyboard in Resources */,
+				5B29455E26A1E530000CAAC1 /* Budget.storyboard in Resources */,
+				5B29456026A1E53E000CAAC1 /* Profile.storyboard in Resources */,
 				5BA5B203269E1AAC00FD0339 /* Main.storyboard in Resources */,
+				5B29455F26A1E537000CAAC1 /* Statistics.storyboard in Resources */,
+				5B29456126A1E543000CAAC1 /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +439,7 @@
 				5BC607E4269F8C52001CA6DC /* Add.storyboard in Resources */,
 				5BC3B429269BEC39009C0B16 /* LaunchScreen.storyboard in Resources */,
 				5BC3B426269BEC39009C0B16 /* Assets.xcassets in Resources */,
+				5B29455B26A1E502000CAAC1 /* SignIn.storyboard in Resources */,
 				5BC3B424269BEC37009C0B16 /* Main.storyboard in Resources */,
 				5BC607E0269F8BB8001CA6DC /* Transactions.storyboard in Resources */,
 				5BC607E9269F8CF0001CA6DC /* Statistics.storyboard in Resources */,
