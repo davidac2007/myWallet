@@ -111,7 +111,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2se-nH-88q">
-                                <rect key="frame" x="160.66666666666666" y="662" width="93" height="34"/>
+                                <rect key="frame" x="160.66666666666666" y="632" width="93" height="34"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
                                 <state key="normal" title="Sign up with">
                                     <color key="titleColor" name="Green Color"/>
@@ -194,21 +194,21 @@
                             <constraint firstItem="6WW-6h-xrl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="34" id="91z-24-w5R"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Iez-kB-wRz" secondAttribute="trailing" constant="20" id="E0W-dL-cwn"/>
                             <constraint firstItem="nJP-V0-Fqd" firstAttribute="top" secondItem="flS-mt-RkG" secondAttribute="bottom" constant="50" id="EGB-Rx-zlX"/>
-                            <constraint firstAttribute="bottom" secondItem="nJP-V0-Fqd" secondAttribute="bottom" id="GgG-Ay-UHL"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="nJP-V0-Fqd" secondAttribute="bottom" id="GgG-Ay-UHL"/>
                             <constraint firstItem="TIO-mF-aQR" firstAttribute="top" secondItem="6WW-6h-xrl" secondAttribute="bottom" constant="8" id="HfK-1w-YjK"/>
-                            <constraint firstAttribute="bottom" secondItem="nJP-V0-Fqd" secondAttribute="bottom" id="JLv-j3-sBB"/>
+                            <constraint firstAttribute="bottom" secondItem="nJP-V0-Fqd" secondAttribute="bottom" id="L0l-qV-uzo"/>
                             <constraint firstItem="TIO-mF-aQR" firstAttribute="top" secondItem="6WW-6h-xrl" secondAttribute="bottom" constant="8" id="OhD-q9-Zo8"/>
                             <constraint firstItem="TIO-mF-aQR" firstAttribute="trailing" secondItem="nJP-V0-Fqd" secondAttribute="trailing" id="SId-oh-oUj"/>
                             <constraint firstItem="2se-nH-88q" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="TUl-nv-Xf8"/>
                             <constraint firstItem="Iez-kB-wRz" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Xwb-Ln-GeE"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6WW-6h-xrl" secondAttribute="trailing" constant="34" id="Zjt-S0-mSv"/>
                             <constraint firstItem="6WW-6h-xrl" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="ZyI-M1-EF3"/>
-                            <constraint firstItem="flS-mt-RkG" firstAttribute="top" secondItem="2se-nH-88q" secondAttribute="bottom" constant="20" id="fDg-yX-mc1"/>
                             <constraint firstItem="nJP-V0-Fqd" firstAttribute="centerX" secondItem="flS-mt-RkG" secondAttribute="centerX" id="k6d-9h-dtv"/>
                             <constraint firstItem="6WW-6h-xrl" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="pdy-dw-Ozy"/>
                             <constraint firstItem="Iez-kB-wRz" firstAttribute="top" secondItem="TIO-mF-aQR" secondAttribute="bottom" id="rOJ-XL-KBj"/>
                             <constraint firstItem="Iez-kB-wRz" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="tXN-MQ-9W8"/>
                             <constraint firstItem="TIO-mF-aQR" firstAttribute="leading" secondItem="nJP-V0-Fqd" secondAttribute="leading" id="yCV-BH-Lq4"/>
+                            <constraint firstItem="flS-mt-RkG" firstAttribute="top" secondItem="2se-nH-88q" secondAttribute="bottom" constant="50" id="ySA-Nx-eAs"/>
                         </constraints>
                     </view>
                 </viewController>
