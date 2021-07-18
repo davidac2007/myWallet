@@ -24,6 +24,8 @@
 		5BA5B202269E1AAC00FD0339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC3B425269BEC39009C0B16 /* Assets.xcassets */; };
 		5BA5B203269E1AAC00FD0339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC3B422269BEC37009C0B16 /* Main.storyboard */; };
 		5BA5B209269E1B4700FD0339 /* Production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5B208269E1B4700FD0339 /* Production.plist */; };
+		5BA92E6D26A3A35300CF6E6A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92E6C26A3A35300CF6E6A /* Shadow.swift */; };
+		5BA92E6E26A3A35300CF6E6A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92E6C26A3A35300CF6E6A /* Shadow.swift */; };
 		5BC3B41D269BEC37009C0B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B41C269BEC37009C0B16 /* AppDelegate.swift */; };
 		5BC3B41F269BEC37009C0B16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B41E269BEC37009C0B16 /* SceneDelegate.swift */; };
 		5BC3B421269BEC37009C0B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B420269BEC37009C0B16 /* ViewController.swift */; };
@@ -62,6 +64,7 @@
 		5B8BA99426A287FA0072A89E /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		5BA5B207269E1AAC00FD0339 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA5B208269E1B4700FD0339 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Production.plist; sourceTree = "<group>"; };
+		5BA92E6C26A3A35300CF6E6A /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		5BC3B419269BEC37009C0B16 /* myWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC3B41C269BEC37009C0B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BC3B41E269BEC37009C0B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -228,6 +231,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		5BA92E6B26A3A32D00CF6E6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92E6C26A3A35300CF6E6A /* Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5BB30B9F269E13D80097A937 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +285,7 @@
 		5BC3B41B269BEC37009C0B16 /* myWallet */ = {
 			isa = PBXGroup;
 			children = (
+				5BA92E6B26A3A32D00CF6E6A /* Extensions */,
 				5BA5B20A269E1FFE00FD0339 /* Resources */,
 				5BB30BA0269E17060097A937 /* Base */,
 				5BB30B9F269E13D80097A937 /* Application */,
@@ -482,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA5B1FC269E1AAC00FD0339 /* ViewController.swift in Sources */,
+				5BA92E6E26A3A35300CF6E6A /* Shadow.swift in Sources */,
 				5BA5B1FD269E1AAC00FD0339 /* AppDelegate.swift in Sources */,
 				5BA5B1FE269E1AAC00FD0339 /* SceneDelegate.swift in Sources */,
 			);
@@ -492,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC3B421269BEC37009C0B16 /* ViewController.swift in Sources */,
+				5BA92E6D26A3A35300CF6E6A /* Shadow.swift in Sources */,
 				5BC3B41D269BEC37009C0B16 /* AppDelegate.swift in Sources */,
 				5BC3B41F269BEC37009C0B16 /* SceneDelegate.swift in Sources */,
 			);
