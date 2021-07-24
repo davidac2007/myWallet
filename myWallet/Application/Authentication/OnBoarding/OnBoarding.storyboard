@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--On Boarding Steps View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnBoardingSteps" id="Y6W-OH-hqX" customClass="OnBoardingStepsViewController" customModule="Production" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,15 +50,20 @@
                             <constraint firstItem="dI0-fo-gKm" firstAttribute="leading" secondItem="wRP-Mo-VE6" secondAttribute="leading" id="mgQ-X7-Ovt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="dI0-fo-gKm" id="g82-g5-GLv"/>
+                        <outlet property="onBoardingImageLabel" destination="BdY-tw-rDf" id="Tt3-86-504"/>
+                        <outlet property="titleLabel" destination="wRP-Mo-VE6" id="bep-I7-ZEz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1791" y="116"/>
         </scene>
-        <!--Page View Controller-->
+        <!--On Boarding View Controller-->
         <scene sceneID="qJl-Ok-Qeg">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Tqp-iP-QEg" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Tqp-iP-QEg" customClass="OnBoardingViewController" customModule="Production" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="710-Mr-bSw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="788" y="116"/>

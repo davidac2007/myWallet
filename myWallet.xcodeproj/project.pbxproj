@@ -15,6 +15,8 @@
 		5B29456126A1E543000CAAC1 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */; };
 		5B29456426A23445000CAAC1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B29456326A23445000CAAC1 /* Colors.xcassets */; };
 		5B29456526A23445000CAAC1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B29456326A23445000CAAC1 /* Colors.xcassets */; };
+		5B7AEA4126AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */; };
+		5B7AEA4226AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */; };
 		5B8BA99526A287FA0072A89E /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8BA99426A287FA0072A89E /* SignIn.storyboard */; };
 		5B8BA99626A287FA0072A89E /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8BA99426A287FA0072A89E /* SignIn.storyboard */; };
 		5BA5B1FC269E1AAC00FD0339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3B420269BEC37009C0B16 /* ViewController.swift */; };
@@ -67,6 +69,7 @@
 /* Begin PBXFileReference section */
 		5B01DEE7269E9EFD0095CE0C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5B29456326A23445000CAAC1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		5B8BA99426A287FA0072A89E /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		5BA5B207269E1AAC00FD0339 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA5B208269E1B4700FD0339 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Production.plist; sourceTree = "<group>"; };
@@ -247,6 +250,7 @@
 				5BAA86C126A91C35003D4E48 /* OnBoarding.storyboard */,
 				5BAA86C426A92CF0003D4E48 /* OnBoardingContainerViewController.swift */,
 				5BAA86C726A9344F003D4E48 /* OnBoardingViewController.swift */,
+				5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -511,6 +515,7 @@
 				5BA92E6E26A3A35300CF6E6A /* Shadow.swift in Sources */,
 				5BAA86C626A92CF0003D4E48 /* OnBoardingContainerViewController.swift in Sources */,
 				5BAA86C926A9344F003D4E48 /* OnBoardingViewController.swift in Sources */,
+				5B7AEA4226AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */,
 				5BA5B1FD269E1AAC00FD0339 /* AppDelegate.swift in Sources */,
 				5BA5B1FE269E1AAC00FD0339 /* SceneDelegate.swift in Sources */,
 			);
@@ -524,6 +529,7 @@
 				5BA92E6D26A3A35300CF6E6A /* Shadow.swift in Sources */,
 				5BAA86C526A92CF0003D4E48 /* OnBoardingContainerViewController.swift in Sources */,
 				5BAA86C826A9344F003D4E48 /* OnBoardingViewController.swift in Sources */,
+				5B7AEA4126AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */,
 				5BC3B41D269BEC37009C0B16 /* AppDelegate.swift in Sources */,
 				5BC3B41F269BEC37009C0B16 /* SceneDelegate.swift in Sources */,
 			);
