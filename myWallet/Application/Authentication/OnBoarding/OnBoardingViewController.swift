@@ -44,7 +44,14 @@ class OnBoardingViewController: UIPageViewController {
         super.viewDidLoad()
         delegate = self
         dataSource = self
+        
+        pageControl?.numberOfPages = items.count
+        updateContainerView(stepNumber: 0)
         // Do any additional setup after loading the view.
+    }
+    
+    func updateContainerView(stepNumber index: Int) {
+        setViewControllers([contentViewController[index]], direction: .forward, animated: true, completion: nil)
     }
     
 
@@ -64,7 +71,7 @@ extension OnBoardingViewController: UIPageViewControllerDataSource{
         if index == 0 {
             return nil
         }
-        return contentViewController[index! + 1]
+        return contentViewController[index! - 1]
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
@@ -79,5 +86,14 @@ extension OnBoardingViewController: UIPageViewControllerDataSource{
 }
 
 extension OnBoardingViewController: UIPageViewControllerDelegate{
-    
+    func pageViewController(
+        _ pageViewController: UIPageViewController,
+        didFinishAnimating finished: Bool,
+        previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        
+        guard let index = contentViewController.firstIndex(of: viewControllers!.first!) else{
+            return
+    }
+        pageControl?.currentPage = index
+}
 }
