@@ -108,7 +108,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="a5t-ve-Quw" kind="presentation" identifier="SignIn" id="a6n-7Y-VFo"/>
+                                    <segue destination="a5t-ve-Quw" kind="presentation" identifier="SignIn" modalPresentationStyle="fullScreen" id="a6n-7Y-VFo"/>
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="M4a-2s-ktc">
@@ -139,10 +139,10 @@
             </objects>
             <point key="canvasLocation" x="-286" y="116"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--SignIn-->
         <scene sceneID="f7C-s6-IfO">
             <objects>
-                <viewControllerPlaceholder id="a5t-ve-Quw" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="SignIn" id="a5t-ve-Quw" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="jgE-gJ-Bpe"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8hO-Hx-HNY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

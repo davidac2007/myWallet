@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="mGK-i8-Wtn">
             <objects>
                 <viewController id="vud-4I-6fL" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="dpj-ou-tmQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cZg-sf-e00"/>
+                    <navigationItem key="navigationItem" title="Profile" id="cZg-sf-e00"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EOc-lH-W26" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
