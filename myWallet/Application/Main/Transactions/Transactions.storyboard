@@ -126,7 +126,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kGV-4x-Wnf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Green Color"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="vgM-et-j4M" secondAttribute="bottom" id="L1V-xz-B3R"/>
                             <constraint firstItem="vgM-et-j4M" firstAttribute="top" secondItem="kGV-4x-Wnf" secondAttribute="top" id="MG4-Mp-E7a"/>
@@ -134,7 +134,7 @@
                             <constraint firstItem="vgM-et-j4M" firstAttribute="leading" secondItem="kGV-4x-Wnf" secondAttribute="leading" id="v3O-pI-Rcr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Transactions" id="8VS-gf-W6A"/>
+                    <navigationItem key="navigationItem" title="Transactions" largeTitleDisplayMode="always" id="8VS-gf-W6A"/>
                     <connections>
                         <outlet property="tableView" destination="vgM-et-j4M" id="P9O-EA-Pyf"/>
                     </connections>
@@ -152,7 +152,15 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ube-V7-6gX">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="Green Color"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="0.0"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
