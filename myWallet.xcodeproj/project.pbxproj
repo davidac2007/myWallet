@@ -10,6 +10,8 @@
 		5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B01DEE7269E9EFD0095CE0C /* View.xib */; };
 		5B25566A26B7590F000B4C13 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B25566926B7590F000B4C13 /* TransactionsViewController.swift */; };
 		5B25566B26B7590F000B4C13 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B25566926B7590F000B4C13 /* TransactionsViewController.swift */; };
+		5B25566D26B799FF000B4C13 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B25566C26B799FF000B4C13 /* EmptyState.xib */; };
+		5B25566E26B799FF000B4C13 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B25566C26B799FF000B4C13 /* EmptyState.xib */; };
 		5B29455D26A1E51A000CAAC1 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E3269F8C52001CA6DC /* Add.storyboard */; };
 		5B29455E26A1E530000CAAC1 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607EA269F8D15001CA6DC /* Budget.storyboard */; };
 		5B29455F26A1E537000CAAC1 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC607E8269F8CF0001CA6DC /* Statistics.storyboard */; };
@@ -71,6 +73,7 @@
 /* Begin PBXFileReference section */
 		5B01DEE7269E9EFD0095CE0C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5B25566926B7590F000B4C13 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		5B25566C26B799FF000B4C13 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		5B29456326A23445000CAAC1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		5B8BA99426A287FA0072A89E /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
@@ -218,6 +221,7 @@
 			children = (
 				5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */,
 				5B25566926B7590F000B4C13 /* TransactionsViewController.swift */,
+				5B25566C26B799FF000B4C13 /* EmptyState.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -461,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA5B201269E1AAC00FD0339 /* LaunchScreen.storyboard in Resources */,
+				5B25566E26B799FF000B4C13 /* EmptyState.xib in Resources */,
 				5B8BA99626A287FA0072A89E /* SignIn.storyboard in Resources */,
 				5B29456526A23445000CAAC1 /* Colors.xcassets in Resources */,
 				5BA5B202269E1AAC00FD0339 /* Assets.xcassets in Resources */,
@@ -480,6 +485,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC607E2269F8C17001CA6DC /* Profile.storyboard in Resources */,
+				5B25566D26B799FF000B4C13 /* EmptyState.xib in Resources */,
 				5B8BA99526A287FA0072A89E /* SignIn.storyboard in Resources */,
 				5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */,
 				5B29456426A23445000CAAC1 /* Colors.xcassets in Resources */,
