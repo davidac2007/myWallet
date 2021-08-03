@@ -29,7 +29,7 @@
         <scene sceneID="Uwi-og-bkF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dbg-gz-fxR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="b8B-bD-tGG"/>
+                    <tabBarItem key="tabBarItem" title="" id="b8B-bD-tGG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ymk-GB-KFW">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
