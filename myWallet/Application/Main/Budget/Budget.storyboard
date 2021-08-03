@@ -12,14 +12,38 @@
         <!--Budget-->
         <scene sceneID="gMf-kj-gEh">
             <objects>
-                <viewController id="tQu-qL-x9O" sceneMemberID="viewController">
+                <viewController id="tQu-qL-x9O" customClass="BudgetViewController" customModule="Production" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3e4-hB-H4W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sTW-lt-qWd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="T10-dv-TS5">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="tQu-qL-x9O" id="Wp1-Gu-idp"/>
+                                    <outlet property="delegate" destination="tQu-qL-x9O" id="4ZV-4E-LPu"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="x2u-da-4Dt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Green Color"/>
+                        <constraints>
+                            <constraint firstItem="sTW-lt-qWd" firstAttribute="leading" secondItem="x2u-da-4Dt" secondAttribute="leading" id="4bS-kE-Fic"/>
+                            <constraint firstItem="sTW-lt-qWd" firstAttribute="top" secondItem="x2u-da-4Dt" secondAttribute="top" id="BvH-dl-VMC"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="sTW-lt-qWd" secondAttribute="bottom" constant="-83" id="akv-aY-Zib"/>
+                            <constraint firstItem="x2u-da-4Dt" firstAttribute="trailing" secondItem="sTW-lt-qWd" secondAttribute="trailing" id="nFo-Rv-Wq9"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Budget" id="U0x-vY-rFU"/>
+                    <navigationItem key="navigationItem" title="Budget" largeTitleDisplayMode="always" id="U0x-vY-rFU"/>
+                    <connections>
+                        <outlet property="tableView" destination="sTW-lt-qWd" id="15H-Fi-RYB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iKX-c1-Cn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -35,7 +59,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="SfI-Yg-NuN">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" name="Green Color"/>
                         <color key="barTintColor" name="Green Color"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>

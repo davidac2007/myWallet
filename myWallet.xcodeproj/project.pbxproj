@@ -21,6 +21,10 @@
 		5B29456526A23445000CAAC1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B29456326A23445000CAAC1 /* Colors.xcassets */; };
 		5B426B3B26B9936E00E314C3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B426B3A26B9936E00E314C3 /* TabBarViewController.swift */; };
 		5B426B3C26B9936E00E314C3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B426B3A26B9936E00E314C3 /* TabBarViewController.swift */; };
+		5B426B3E26B9A4EF00E314C3 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B426B3D26B9A4EF00E314C3 /* TransactionsCell.xib */; };
+		5B426B3F26B9A4EF00E314C3 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B426B3D26B9A4EF00E314C3 /* TransactionsCell.xib */; };
+		5B426B4126B9A96700E314C3 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B426B4026B9A96700E314C3 /* BudgetViewController.swift */; };
+		5B426B4226B9A96700E314C3 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B426B4026B9A96700E314C3 /* BudgetViewController.swift */; };
 		5B7AEA4126AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */; };
 		5B7AEA4226AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */; };
 		5B8BA99526A287FA0072A89E /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8BA99426A287FA0072A89E /* SignIn.storyboard */; };
@@ -78,6 +82,8 @@
 		5B25566C26B799FF000B4C13 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		5B29456326A23445000CAAC1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		5B426B3A26B9936E00E314C3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5B426B3D26B9A4EF00E314C3 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		5B426B4026B9A96700E314C3 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		5B7AEA4026AC86D700F21003 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		5B8BA99426A287FA0072A89E /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		5BA5B207269E1AAC00FD0339 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC607EA269F8D15001CA6DC /* Budget.storyboard */,
+				5B426B4026B9A96700E314C3 /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -225,6 +232,7 @@
 				5BC607DF269F8BB8001CA6DC /* Transactions.storyboard */,
 				5B25566926B7590F000B4C13 /* TransactionsViewController.swift */,
 				5B25566C26B799FF000B4C13 /* EmptyState.xib */,
+				5B426B3D26B9A4EF00E314C3 /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -474,6 +482,7 @@
 				5B29456526A23445000CAAC1 /* Colors.xcassets in Resources */,
 				5BA5B202269E1AAC00FD0339 /* Assets.xcassets in Resources */,
 				5BA5B209269E1B4700FD0339 /* Production.plist in Resources */,
+				5B426B3F26B9A4EF00E314C3 /* TransactionsCell.xib in Resources */,
 				5B29455D26A1E51A000CAAC1 /* Add.storyboard in Resources */,
 				5B29455E26A1E530000CAAC1 /* Budget.storyboard in Resources */,
 				5B29456026A1E53E000CAAC1 /* Profile.storyboard in Resources */,
@@ -494,6 +503,7 @@
 				5B01DEE8269E9EFD0095CE0C /* View.xib in Resources */,
 				5B29456426A23445000CAAC1 /* Colors.xcassets in Resources */,
 				5BC607EB269F8D15001CA6DC /* Budget.storyboard in Resources */,
+				5B426B3E26B9A4EF00E314C3 /* TransactionsCell.xib in Resources */,
 				5BC607E4269F8C52001CA6DC /* Add.storyboard in Resources */,
 				5BC3B429269BEC39009C0B16 /* LaunchScreen.storyboard in Resources */,
 				5BC3B426269BEC39009C0B16 /* Assets.xcassets in Resources */,
@@ -532,6 +542,7 @@
 				5B426B3C26B9936E00E314C3 /* TabBarViewController.swift in Sources */,
 				5B7AEA4226AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */,
 				5BA5B1FD269E1AAC00FD0339 /* AppDelegate.swift in Sources */,
+				5B426B4226B9A96700E314C3 /* BudgetViewController.swift in Sources */,
 				5B25566B26B7590F000B4C13 /* TransactionsViewController.swift in Sources */,
 				5BA5B1FE269E1AAC00FD0339 /* SceneDelegate.swift in Sources */,
 			);
@@ -548,6 +559,7 @@
 				5B426B3B26B9936E00E314C3 /* TabBarViewController.swift in Sources */,
 				5B7AEA4126AC86D700F21003 /* OnBoardingStepsViewController.swift in Sources */,
 				5BC3B41D269BEC37009C0B16 /* AppDelegate.swift in Sources */,
+				5B426B4126B9A96700E314C3 /* BudgetViewController.swift in Sources */,
 				5B25566A26B7590F000B4C13 /* TransactionsViewController.swift in Sources */,
 				5BC3B41F269BEC37009C0B16 /* SceneDelegate.swift in Sources */,
 			);
