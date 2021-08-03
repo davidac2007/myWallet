@@ -16,8 +16,19 @@
                     <view key="view" contentMode="scaleToFill" id="cj3-nx-1dg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IQl-GU-fQ4">
+                                <rect key="frame" x="20" y="160" width="374" height="633"/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="AuF-2X-bSY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AuF-2X-bSY" firstAttribute="trailing" secondItem="IQl-GU-fQ4" secondAttribute="trailing" constant="20" id="Afl-4U-e7q"/>
+                            <constraint firstItem="IQl-GU-fQ4" firstAttribute="leading" secondItem="AuF-2X-bSY" secondAttribute="leading" constant="20" id="K8p-mu-KTR"/>
+                            <constraint firstItem="IQl-GU-fQ4" firstAttribute="top" secondItem="AuF-2X-bSY" secondAttribute="top" constant="20" id="ZCL-HR-Qlf"/>
+                            <constraint firstItem="AuF-2X-bSY" firstAttribute="bottom" secondItem="IQl-GU-fQ4" secondAttribute="bottom" constant="20" id="aiM-MQ-aOt"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Statistics" id="n1e-Rb-oFs"/>
                 </viewController>

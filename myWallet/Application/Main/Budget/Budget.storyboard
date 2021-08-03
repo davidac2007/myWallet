@@ -20,7 +20,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sTW-lt-qWd">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <view key="tableFooterView" contentMode="scaleToFill" id="T10-dv-TS5">
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="T10-dv-TS5">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
@@ -35,7 +35,7 @@
                                             <rect key="frame" x="57" y="10" width="96" height="50"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="INCOMING">
-                                                <color key="titleColor" systemColor="labelColor"/>
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <connections>
                                                 <action selector="animateHeaderWithSender:" destination="tQu-qL-x9O" eventType="touchUpInside" id="tSD-gQ-nTg"/>
@@ -45,7 +45,7 @@
                                             <rect key="frame" x="266" y="9" width="91" height="50"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="EXPENSES">
-                                                <color key="titleColor" systemColor="labelColor"/>
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <connections>
                                                 <action selector="animateHeaderWithSender:" destination="tQu-qL-x9O" eventType="touchUpInside" id="aAY-Uk-qiT"/>
@@ -55,19 +55,24 @@
                                             <rect key="frame" x="177" y="9" width="60" height="50"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="ALL">
-                                                <color key="titleColor" systemColor="labelColor"/>
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <connections>
                                                 <action selector="animateHeaderWithSender:" destination="tQu-qL-x9O" eventType="touchUpInside" id="Ioy-nI-53d"/>
                                             </connections>
                                         </button>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lkc-SJ-zSZ">
-                                            <rect key="frame" x="57" y="9" width="115" height="50"/>
+                                            <rect key="frame" x="57" y="9" width="105" height="50"/>
                                             <color key="backgroundColor" systemColor="systemGreenColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="115" id="DvU-Z7-mL8"/>
+                                                <constraint firstAttribute="width" constant="105" id="DvU-Z7-mL8"/>
                                                 <constraint firstAttribute="height" constant="50" id="wWv-Em-mCt"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                                    <integer key="value" value="22"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -95,6 +100,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Budget" largeTitleDisplayMode="always" id="U0x-vY-rFU"/>
                     <connections>
+                        <outlet property="animationLayout" destination="vLZ-cq-cLe" id="htH-tS-WGp"/>
                         <outlet property="tableView" destination="sTW-lt-qWd" id="15H-Fi-RYB"/>
                         <outletCollection property="animationsButtons" destination="dal-yY-Kz4" collectionClass="NSMutableArray" id="gq2-kO-OCl"/>
                         <outletCollection property="animationsButtons" destination="DCn-dC-cDi" collectionClass="NSMutableArray" id="wHL-fx-aoB"/>
@@ -139,9 +145,6 @@
         <namedColor name="Green Color">
             <color red="0.38039215686274508" green="0.77254901960784317" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
