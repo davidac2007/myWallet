@@ -143,12 +143,13 @@
             </objects>
             <point key="canvasLocation" x="189.85507246376812" y="96.428571428571431"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="q5a-BP-vUe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="icu-Y7-JC4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="c7K-Ja-CZL"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabBarTransactions" id="RRa-6C-t1J"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ube-V7-6gX">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -173,6 +174,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TabBarTransactions" width="20" height="20"/>
         <namedColor name="Green Color">
             <color red="0.38039215686274508" green="0.77254901960784317" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

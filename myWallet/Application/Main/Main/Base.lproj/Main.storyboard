@@ -15,13 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="pcj-bE-pfR" kind="relationship" relationship="viewControllers" id="b2M-vt-Uuf"/>
                         <segue destination="DKs-p3-Tfu" kind="relationship" relationship="viewControllers" id="dUB-Vp-Jws"/>
+                        <segue destination="cLL-c2-cGB" kind="relationship" relationship="viewControllers" id="ybE-mN-wLB"/>
                         <segue destination="5SR-wz-Wia" kind="relationship" relationship="viewControllers" id="ZqR-9d-yUt"/>
                         <segue destination="qlM-vw-zPS" kind="relationship" relationship="viewControllers" id="gJ5-4Z-kQS"/>
-                        <segue destination="cLL-c2-cGB" kind="relationship" relationship="viewControllers" id="ybE-mN-wLB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="54c-ta-qXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -31,10 +32,10 @@
         <!--Transactions-->
         <scene sceneID="cMT-xq-3QH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jrw-ah-PT6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Transactions" id="pcj-bE-pfR" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="6oV-ky-rFH"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrw-ah-PT6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-814" y="63"/>
         </scene>
