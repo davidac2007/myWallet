@@ -23,7 +23,60 @@
                                 <view key="tableFooterView" contentMode="scaleToFill" id="T10-dv-TS5">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="T1s-fX-3qa">
+                                            <rect key="frame" x="57" y="9" width="300" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="McR-fR-yHa"/>
+                                                <constraint firstAttribute="height" constant="50" id="yTe-Qj-tCz"/>
+                                            </constraints>
+                                        </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dal-yY-Kz4">
+                                            <rect key="frame" x="57" y="10" width="96" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="INCOMING">
+                                                <color key="titleColor" systemColor="labelColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="animateHeaderWithSender:" destination="tQu-qL-x9O" eventType="touchUpInside" id="tSD-gQ-nTg"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydd-fN-hV4">
+                                            <rect key="frame" x="266" y="9" width="91" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="EXPENSES">
+                                                <color key="titleColor" systemColor="labelColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="animateHeaderWithSender:" destination="tQu-qL-x9O" eventType="touchUpInside" id="aAY-Uk-qiT"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCn-dC-cDi">
+                                            <rect key="frame" x="177" y="9" width="60" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="ALL">
+                                                <color key="titleColor" systemColor="labelColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="animateHeaderWithSender:" destination="tQu-qL-x9O" eventType="touchUpInside" id="Ioy-nI-53d"/>
+                                            </connections>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lkc-SJ-zSZ">
+                                            <rect key="frame" x="57" y="9" width="115" height="50"/>
+                                            <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="115" id="DvU-Z7-mL8"/>
+                                                <constraint firstAttribute="height" constant="50" id="wWv-Em-mCt"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="lkc-SJ-zSZ" firstAttribute="centerY" secondItem="T10-dv-TS5" secondAttribute="centerY" id="eoU-Kx-BcR"/>
+                                        <constraint firstItem="T1s-fX-3qa" firstAttribute="centerX" secondItem="T10-dv-TS5" secondAttribute="centerX" id="jAC-la-Mda"/>
+                                        <constraint firstItem="T1s-fX-3qa" firstAttribute="centerY" secondItem="T10-dv-TS5" secondAttribute="centerY" id="oY2-e3-TeX"/>
+                                        <constraint firstItem="lkc-SJ-zSZ" firstAttribute="leading" secondItem="T1s-fX-3qa" secondAttribute="leading" id="vLZ-cq-cLe"/>
+                                    </constraints>
                                 </view>
                                 <connections>
                                     <outlet property="dataSource" destination="tQu-qL-x9O" id="Wp1-Gu-idp"/>
@@ -43,6 +96,9 @@
                     <navigationItem key="navigationItem" title="Budget" largeTitleDisplayMode="always" id="U0x-vY-rFU"/>
                     <connections>
                         <outlet property="tableView" destination="sTW-lt-qWd" id="15H-Fi-RYB"/>
+                        <outletCollection property="animationsButtons" destination="dal-yY-Kz4" collectionClass="NSMutableArray" id="gq2-kO-OCl"/>
+                        <outletCollection property="animationsButtons" destination="DCn-dC-cDi" collectionClass="NSMutableArray" id="wHL-fx-aoB"/>
+                        <outletCollection property="animationsButtons" destination="Ydd-fN-hV4" collectionClass="NSMutableArray" id="LHP-kq-Vh9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iKX-c1-Cn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -83,8 +139,14 @@
         <namedColor name="Green Color">
             <color red="0.38039215686274508" green="0.77254901960784317" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

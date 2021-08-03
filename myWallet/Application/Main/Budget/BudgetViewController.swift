@@ -9,7 +9,7 @@ import UIKit
 
 class BudgetViewController: UIViewController {
     @IBOutlet weak var tableView : UITableView!
-    
+    @IBOutlet var animationsButtons: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,9 @@ class BudgetViewController: UIViewController {
               tableView.register(cell, forCellReuseIdentifier: "cell")
     }
     
-
+    @IBAction func animateHeader(sender: UIButton){
+        
+    }
     
 }
 
